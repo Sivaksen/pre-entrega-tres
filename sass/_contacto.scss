@@ -1,0 +1,27 @@
+
+        .tituloMat{
+            text-align: center;
+            color: #9D8189;
+            font-size: 45px;
+            font-weight: bold;
+        }
+        .imagenMat{
+            margin: 1rem;
+            padding: 1rem;
+            @include sizes (450px, 500px);
+            border-radius: 50px;
+        }
+        .listaContacto{
+            list-style-type: none;
+            padding: 2rem;
+            text-align: left;
+            background-color: #9D8189;
+            color: #FFE5D9;
+            border-radius: 50px;
+            font-size: 30px;
+        }
+    
+    
+
+
+  

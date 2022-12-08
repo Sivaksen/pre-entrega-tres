@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #FFE5D9;
+  font-family: 'Times New Roman', Times, serif; }
+  body .menu {
+    background-color: #9D8189;
+    padding: 0;
+    list-style-type: none;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px; }
+    body .menu li {
+      display: inline-block;
+      text-align: center; }
+      body .menu li a {
+        padding: 20px;
+        margin: 10px;
+        color: #FFE5D9;
+        text-decoration: none;
+        display: inline-block; }
+        body .menu li a:hover {
+          color: #9D8189;
+          background-color: #FFE5D9;
+          border-radius: 50px; }
+  body main .tituloMat {
+    text-align: center;
+    color: #9D8189;
+    font-size: 45px;
+    font-weight: bold; }
+  body main .textoIndex {
+    padding: 2rem;
+    text-align: left;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 30px; }
+  body footer {
+    position: absolute;
+    width: 96%;
+    margin: 1.5rem; }
+    body footer .siguiente {
+      background-color: #9D8189;
+      padding: 0;
+      list-style-type: none;
+      margin: 20px auto;
+      text-align: center;
+      font-size: 20px; }
+      body footer .siguiente li {
+        display: inline-block;
+        text-align: center; }
+        body footer .siguiente li a {
+          padding: 20px;
+          margin: 10px;
+          color: #FFE5D9;
+          text-decoration: none;
+          display: inline-block; }
+          body footer .siguiente li a:hover {
+            color: #9D8189;
+            background-color: #FFE5D9;
+            border-radius: 50px; }
+
+.tituloMat {
+  text-align: center;
+  color: #9D8189;
+  font-size: 45px;
+  font-weight: bold; }
+
+.imagenMat {
+  margin: 1rem;
+  padding: 1rem;
+  width: 450px;
+  height: 500px;
+  border-radius: 50px; }
+
+.listaContacto {
+  list-style-type: none;
+  padding: 2rem;
+  text-align: left;
+  background-color: #9D8189;
+  color: #FFE5D9;
+  border-radius: 50px;
+  font-size: 30px; }
+
+.tituloHab {
+  display: flex;
+  justify-content: space-around;
+  color: #9D8189;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center; }
+
+.textosGlobal {
+  display: flex;
+  justify-content: space-around; }
+  .textosGlobal .textoHab {
+    margin: 1rem;
+    padding: 3rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 40px; }
+  .textosGlobal .textoIdiomas {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 40px; }
+
+.banderasHab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .banderasHab .banderaBrit {
+    padding: 1rem;
+    width: 320px;
+    height: 170px;
+    border-radius: 50px; }
+  .banderasHab .banderaEsp {
+    padding: 1rem;
+    width: 320px;
+    height: 170px;
+    border-radius: 50px; }
+
+.tituloEstudios {
+  display: flex;
+  justify-content: space-around;
+  color: #9D8189;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center; }
+
+.textosGlobal {
+  display: flex;
+  justify-content: space-around; }
+  .textosGlobal .textoEstudios {
+    margin: 1rem;
+    padding: 3rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 30px; }
+  .textosGlobal .textoExtras {
+    margin: 1rem;
+    padding: 3rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 30px; }
+
+.logosEstudios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .logosEstudios .logoEcea {
+    padding: 1rem;
+    width: 200px;
+    height: 150px;
+    border-radius: 50px; }
+  .logosEstudios .logoUade {
+    padding: 1rem;
+    width: 300px;
+    height: 150px;
+    border-radius: 50px; }
+
+.tituloExpLaboral {
+  color: #9D8189;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: Top; }
+
+.textoExpLab {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #9D8189;
+  color: #FFE5D9;
+  border-radius: 50px;
+  font-size: 40px;
+  text-align: left; }
+
+.voluntariado {
+  color: #9D8189;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center; }
+
+.textoVol {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #9D8189;
+  color: #FFE5D9;
+  border-radius: 50px;
+  font-size: 40px;
+  text-align: left; }

@@ -1,0 +1,48 @@
+
+        .tituloEstudios{
+            display: flex;
+            justify-content: space-around;
+            color: #9D8189;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .textosGlobal{
+            display: flex;
+            justify-content: space-around;
+            .textoEstudios{
+                margin: 1rem;
+                padding: 3rem;
+                background-color: #9D8189;
+                color: #FFE5D9;
+                border-radius: 50px;
+                font-size: 30px;
+                
+            }
+            .textoExtras{
+                margin: 1rem;
+                padding: 3rem;
+                background-color: #9D8189;
+                color: #FFE5D9;
+                border-radius: 50px;
+                font-size: 30px;
+            }
+        }
+        .logosEstudios{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .logoEcea{
+                padding: 1rem;
+                @include sizes (200px, 150px);
+                border-radius: 50px;
+            }
+            .logoUade{
+                padding: 1rem;
+                @include sizes (300px, 150px);
+                border-radius: 50px;
+            }
+        }
+    
+    
+

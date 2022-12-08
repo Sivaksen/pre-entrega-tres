@@ -1,0 +1,49 @@
+
+        .tituloHab{
+            display: flex;
+            justify-content: space-around;
+            color: #9D8189;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .textosGlobal{
+            display: flex;
+            justify-content: space-around;
+            .textoHab{
+                margin: 1rem;
+                padding: 3rem;
+                background-color: #9D8189;
+                color: #FFE5D9;
+                border-radius: 50px;
+                font-size: 40px;
+            }
+            .textoIdiomas{
+                display: flex;
+                flex-direction: column;
+                margin: 1rem;
+                padding: 2rem;
+                background-color: #9D8189;
+                color: #FFE5D9;
+                border-radius: 50px;
+                font-size: 40px;
+            }
+        }
+        .banderasHab{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .banderaBrit{
+                padding: 1rem;
+                @include sizes (320px, 170px);
+                border-radius: 50px;
+            }
+            .banderaEsp{
+                padding: 1rem;
+                @include sizes (320px, 170px);
+                border-radius: 50px;
+            }
+        }
+    
+    
+
