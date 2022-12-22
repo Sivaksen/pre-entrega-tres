@@ -140,14 +140,12 @@ body {
   display: flex;
   justify-content: space-around; }
   .textosGlobal .textoEstudios {
-    margin: 1rem;
     padding: 3rem;
     background-color: #9D8189;
     color: #FFE5D9;
     border-radius: 50px;
     font-size: 30px; }
   .textosGlobal .textoExtras {
-    margin: 1rem;
     padding: 3rem;
     background-color: #9D8189;
     color: #FFE5D9;
